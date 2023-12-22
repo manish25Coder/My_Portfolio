@@ -28,7 +28,7 @@ function Main() {
             options={{
                 background: {
                     color: {
-                        value: "#ffffff",
+                        value: "#09090b",
                     },
                 },
                 fpsLimit: 120,
@@ -56,10 +56,10 @@ function Main() {
                 },
                 particles: {
                     color: {
-                        value: "#2563eb",
+                        value: "#86efac",
                     },
                     links: {
-                        color: "#2563eb",
+                        color: "#86efac",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
@@ -83,7 +83,7 @@ function Main() {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 1.5,
                     },
                     shape: {
                         type: "square",
