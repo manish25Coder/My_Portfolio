@@ -20,7 +20,7 @@ function Main() {
     }, []);
 
   return (
-    <div>
+    <div className="max-h-screen">
         <Particles
             id="tsparticles"
             init={particlesInit}
@@ -28,14 +28,14 @@ function Main() {
             options={{
                 background: {
                     color: {
-                        value: "#0d47a1",
+                        value: "#ffffff",
                     },
                 },
                 fpsLimit: 120,
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
+                            enable: false,
                             mode: "push",
                         },
                         onHover: {
@@ -56,10 +56,10 @@ function Main() {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "#2563eb",
                     },
                     links: {
-                        color: "#ffffff",
+                        color: "#2563eb",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
@@ -72,7 +72,7 @@ function Main() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 3,
                         straight: false,
                     },
                     number: {
@@ -86,7 +86,7 @@ function Main() {
                         value: 0.5,
                     },
                     shape: {
-                        type: "circle",
+                        type: "square",
                     },
                     size: {
                         value: { min: 1, max: 5 },
