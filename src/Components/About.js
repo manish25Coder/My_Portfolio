@@ -32,8 +32,8 @@ function About() {
               </a>
             </div>
         </div> 
-        <div className='flex flex-wrap'>
-          <img src={Profile} alt='profile' className='element object-contain p-4' />
+        <div className='flex flex-wrap '>
+          <img src={Profile} alt='profile' className='element object-contain max-w-[45%] m-auto mr-[13px]' />
         </div>     
     </div>
   )
