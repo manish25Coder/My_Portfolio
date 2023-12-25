@@ -44,3 +44,8 @@
     @tailwind components;
     @tailwind utilities;
 ```
+
+#   Setting up react-tilt
+```
+    npm i react-parallax-tilt
+```

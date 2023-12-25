@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
+import OverView from "./Components/OverView";
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
           <About/>
         </div>
       </div>
-      <div>
 
+      <div className="flex flex-col relative bg-black">
+        <OverView />
       </div>
      
     </div>

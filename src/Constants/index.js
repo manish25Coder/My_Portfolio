@@ -27,10 +27,6 @@ const services =[
         title : "UI/UX Designer",
         icon : ux,
     },
-    {
-        title : "Web Developer",
-        icon : web,
-    },
 ];
 
 const technologies = [
