@@ -112,7 +112,7 @@ const projects = [
         ],
         image : pro2,
         sourse_code_link : "https://github.com/manish25Coder/pokeDex",
-        sourse_deploy_link : "https://tictactoe-vite.netlify.app/"
+        sourse_deploy_link : "https://pokedexapi1.netlify.app"
     },
     {
         name : "LMS",
@@ -134,7 +134,7 @@ const projects = [
         ],
         image : pro3,
         sourse_code_link : "https://github.com/manish25Coder/LMS_frontend",
-        // sourse_deploy_link : "https://tictactoe-vite.netlify.app/"
+        sourse_deploy_link : "https://tictactoe-vite.netlify.app/"
     },
 ];
 
