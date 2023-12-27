@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
 import OverView from "./Components/OverView";
@@ -23,6 +24,7 @@ function App() {
       <div className="flex flex-col relative bg-black">
         <OverView />
         <Projects />
+        <Contact />
       </div>
      
     </div>
