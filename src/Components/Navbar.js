@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../Assests/logo.png'
 import { AiOutlineMenuUnfold } from "react-icons/ai";
+import {Link} from "react-scroll"
 
 function Navbar() {
 
@@ -29,26 +30,38 @@ function Navbar() {
                                     ${
                                       isOpen ? "bg-teal-300 bg-opacity-700" : ""
                                     }`}>
+                  <Link spy={true} to='Home' activeClass='activeClass' >               
                     <li>
                       <div className='block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700'>
                         Home
                       </div>
                     </li>
+                  </Link> 
+
+                  <Link spy={true} to='Overview' >
                     <li>
                       <div className='block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700'>
                         About
                       </div>
                     </li>
+                  </Link>
+
+                  <Link spy={true} to='Projects' >
                     <li>
                       <div className='block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700'>
                         Projects
                       </div>
                     </li>
+                  </Link>
+
+                  <Link spy={true} to='Contact' >
                     <li>
                       <div className='block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700'>
                         Contact
                       </div>
                     </li>
+                    </Link>
+
                   </ul>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import contact from "../Assests/contact-us.jpg"
 function Contact() {
   return (
     <div className='bg-white'>
-        <div className='flex-row items-center pl-5 justify-center pt-3' id='Overview'>
+        <div className='flex-row items-center pl-5 justify-center pt-3' id='Contact'>
             <span className={Styles.selectionHeadText}>
                 Contact
             </span>
